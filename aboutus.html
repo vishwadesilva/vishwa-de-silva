@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        
+        <section class="logo">
+            <img src="logo.png" alt="Wildlife Logo" width="50">
+        </section>
+    
+        <nav>
+        
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="DOW.html">DOW</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="animalparks.html">Animal Parks</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+    
+            <section class="menu-btn" onclick="toggleNav()">&#9776;</section>
+        </nav>
+    </header>
+    
+
+    
+    <section>
+        <h1></h1>
+        <p></p>
+    </section>
+
+    <!-- Rest of your content goes here -->
+    
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+
+</body>
+</html>
